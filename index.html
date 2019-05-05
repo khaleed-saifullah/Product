@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
@@ -56,8 +55,7 @@
                         <h1>We build successful, long-lasting,<br> profitable products for our clients</h1>
                     </div>
                     <div class="aw-countdown py-5">
-                        <ul>
-                            <li><span id="days"></span>Days</li>
+                        <ul>                            
                             <li><span id="hours"></span>Hours</li>
                             <li><span id="minutes"></span>Minutes</li>
                             <li><span id="seconds"></span>Seconds</li>
@@ -79,7 +77,7 @@
     <section id="blog" class="py-5">  
         <div class="container">    
             <div class="row p-3 blog-1">
-                <div class="col-sm-12 col-md-4 d-flex align-items-center">
+                <div class="col-sm-12 col-md-5 d-flex align-items-center">
                     <div class="blog-content">
                         <h3>We build successful,<br>
                             long-lasting.
@@ -92,16 +90,16 @@
                         <a href="#" class="btn btn-primary mt-5">Get Started</a>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                <div class="col-sm-12 col-md-7 d-flex align-items-center">
                     <img src="images/feature1.jpg" alt="" class="img-fluid" >
                 </div>
             </div>
             <div class="row blog-2">
-                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                <div class="col-sm-12 col-md-7 d-flex align-items-center">
                     <img src="images/feature2.png" alt="" class="img-fluid" >
                 </div>
                 
-                <div class="col-sm-12 col-md-4 d-flex align-items-center">
+                <div class="col-sm-12 col-md-5 d-flex align-items-center">
                     <div class="blog-content">
                         <h3>We build successful,<br>
                             long-lasting.
@@ -128,22 +126,71 @@
                             when looking at its layout. The point of using Lorem Ipsum is that</p>
                 </div>
             </div>
-            <div class="row mt-5">                                    
-                <div class="col">
-                    <div class="slider">
-                        <div>
-                            <img src="images/person1.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="slider-image-hover">
-                            <img src="images/person2.png" alt="" class="img-fluid">
-                            <div class="hover-caption">
-                                <h4>Yi Chun-Hwa</h4>
-                                <p>Business Developer</p>
-                            </div>
-                        </div>
-                        <div>
-                            <img src="images/person3.png" alt="" class="img-fluid">
-                        </div>
+            <div class="slider mt-5">
+                <div class="slider__item slider-image-hover">
+                    <img
+                        src="images/person1.png"
+                        alt=""
+                        class="img-fluid"
+                    />
+                    <div class="hover-caption">
+                        <h4>Yi Chun-Hwa</h4>
+                        <p>Business Developer</p>
+                    </div>
+                </div>
+                <div class="slider__item slider-image-hover">
+                    <img
+                        src="images/person2.png"
+                        alt=""
+                        class="img-fluid"
+                    />
+                    <div class="hover-caption">
+                        <h4>Yi Chun-Hwa</h4>
+                        <p>Business Developer</p>
+                    </div>
+                </div>
+                <div class="slider__item slider-image-hover">
+                    <img
+                        src="images/person3.png"
+                        alt=""
+                        class="img-fluid"
+                    />
+                    <div class="hover-caption">
+                        <h4>Yi Chun-Hwa</h4>
+                        <p>Business Developer</p>
+                    </div>
+                </div>
+                <div class="slider__item slider-image-hover">
+                    <img
+                        src="images/person1.png"
+                        alt=""
+                        class="img-fluid"
+                    />
+                    <div class="hover-caption">
+                        <h4>Yi Chun-Hwa</h4>
+                        <p>Business Developer</p>
+                    </div>
+                </div>
+                <div class="slider__item slider-image-hover">
+                    <img
+                        src="images/person2.png"
+                        alt=""
+                        class="img-fluid"
+                    />
+                    <div class="hover-caption">
+                        <h4>Yi Chun-Hwa</h4>
+                        <p>Business Developer</p>
+                    </div>
+                </div>
+                <div class="slider__item slider-image-hover">
+                    <img
+                        src="images/person3.png"
+                        alt=""
+                        class="img-fluid"
+                    />
+                    <div class="hover-caption">
+                        <h4>Yi Chun-Hwa</h4>
+                        <p>Business Developer</p>
                     </div>
                 </div>
             </div>
@@ -153,20 +200,9 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/jQuery.js"></script>
-    <script src="js/slick.js"></script>
 
-    
-
-    <script type="text/javascript">
-        $(".slider").slick({
-            dots: true,
-            arrows: false,
-            autoplay: true,
-            autoplaySpeed: 1000
-        });
-    </script>
     
 
     

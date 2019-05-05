@@ -1,0 +1,7 @@
+1.Countdown Timer:
+Link: https://codepen.io/AllThingsSmitty/pen/JJavZN
+Author: Matt Smith
+
+2.Carousel Slider:
+Link: https://kenwheeler.github.io/slick/
+Author: Ken Wheeler
